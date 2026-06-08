@@ -2393,7 +2393,7 @@
       document.getElementById('mobileNav').classList.remove('open');
     }
     document.addEventListener('click', e => {
-      if (!e.target.closest('#mobileNav') && !e.target.closest('.nav-toggle')) {
+      if (!e.target.closest('#mobileNav') && !e.target.closest('#hamburger')) {
         closeMobileNav();
       }
     });
